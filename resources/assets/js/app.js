@@ -17,6 +17,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-const app = new Vue({
-    el: '#app'
+const appkamo = new Vue({
+    el: '#appkamo',
+    template: '<h1>Hello world 加茂 kamo</h1>'
 });
