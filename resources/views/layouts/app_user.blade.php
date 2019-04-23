@@ -76,6 +76,9 @@
                             <a class="nav-link" href="{{ route('user.holiday.show') }}">{{ __('休日管理') }}</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('user.holidayvue.show') }}">{{ __('Vue休日管理') }}</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('user.user.show') }}">{{ __('ユーザ管理') }}</a>
                         </li>
                         <li class="nav-item">

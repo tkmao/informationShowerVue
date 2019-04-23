@@ -91,6 +91,9 @@ Route::group(['middleware' => 'auth:user'], function () {
     Route::post('/usertype/store', 'User\UserTypeController@store')->name('user.usertype.store');
     Route::post('/usertype/edit', 'User\UserTypeController@edit')->name('user.usertype.edit');
     Route::post('/usertype/delete', 'User\UserTypeController@delete')->name('user.usertype.delete');
+    Route::get('/holidayvue/show', function () {
+        return view('user.holidayvue.show');
+    })->name('user.holidayvue.show');
 });
 
 /*
